@@ -1,0 +1,297 @@
+@font-face {
+    src: url(./fonts/Avenir\ Next.ttc);
+    font-family: 'Avenir';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(./fonts/Montserrat-Black.otf);
+    font-family: 'Monteserrat';
+    font-weight: normal;
+}
+
+body,
+html {
+    height: 100%;
+    background: #ffffff;
+    font-size: 20px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    background-color: #ffff;
+    box-shadow: 0px 1px 3px 1px #888888;
+}
+
+div#navbarNav {
+    justify-content: flex-end;
+}
+
+.w-100 {
+    height: 700px;
+    object-fit: cover;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.text-carousel {
+    position: absolute;
+    top: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+    .text-carousel a {
+        position: absolute;
+        left: 20%;
+        font-size: 1.2em;
+    }
+}
+
+.text-carousel a {
+    position: absolute;
+    left: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+    h1.impactPharse {
+        font-size: 1.8em;
+    }
+}
+
+.impactPharse {
+    color: #fdd02d;
+    text-align: center;
+    font-family: 'Avenir';
+    font-size: 2.4em;
+}
+
+@media only screen and (max-width: 768px) {
+    p.solutionPharse {
+        font-size: 1.0em;
+    }
+}
+
+.solutionPharse {
+    color: #f1d87a;
+    text-align: center;
+    font-family: 'Monteserrat';
+    font-size: 1.4em;
+    padding: 1em;
+}
+
+#about {
+    box-shadow: 0px 1px 2px 1px #888888;
+}
+
+
+/*--------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+    h2.soluction {
+        font-size: 1.2em;
+    }
+}
+
+#soluction {
+    color: #5f2483;
+    font-family: 'Monteserrat';
+    padding: 1em;
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+    img#psychology {
+        width: 100%;
+    }
+}
+
+#psychology {
+    width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+    p.about-text {
+        font-size: 1.0em;
+    }
+}
+
+.about-text {
+    color: #858585;
+    padding: 1em;
+    font-size: 1.8rem;
+    text-align: right;
+    line-height: 1;
+    margin: 5% 0 7%;
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+
+#values {
+    box-shadow: 0px 1px 2px 1px #888888;
+}
+
+#aboutTitle {
+    color: #5f2483;
+    text-align: center;
+    font-family: 'Monteserrat';
+    padding: 1em;
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+    p#mission {
+        font-size: 1.0em;
+    }
+}
+
+#mission {
+    color: #858585;
+    padding: 0.4em;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1;
+    margin: 5% 0 7%;
+}
+
+@media only screen and (max-width: 768px) {
+    p#eyesight {
+        font-size: 1.0em;
+    }
+}
+
+#eyesight {
+    color: #858585;
+    padding: 0.4em;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1;
+    margin: 5% 0 7%;
+}
+
+
+/*--------------------------------------------------------------------------------------------------*/
+
+#values {
+    box-shadow: 0px 1px 2px 1px #888888;
+    padding: 1em;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    padding: 1.2em;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+@media only screen and (max-width: 1180px) {
+    h1#empathyTitle {
+        padding: 2em 0.2em;
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    h1#comunicacaoTitle {
+        padding: 2em 0.02em;
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    h1#equilibrioTitle {
+        padding: 2em 0.02em;
+        font-size: 2em;
+    }
+}
+
+.flip-card-front.empathy {
+    font-size: 0.8em;
+    padding: 4em;
+    background-color: #fcea9e;
+    color: #622e92;
+}
+
+.flip-card-front.comunicacao {
+    font-size: 0.8em;
+    padding: 4em;
+    background-color: #ffd7cf;
+    color: #622e92;
+}
+
+.flip-card-front.equilibrio {
+    font-size: 0.8em;
+    padding: 4em;
+    background-color: #cee29a;
+    color: #622e92;
+}
+
+@media only screen and (max-width: 1180px) {
+    p#empathy {
+        text-align: center;
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    p#comunicacao {
+        text-align: center;
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    p#equilibrio {
+        text-align: center;
+        font-size: 0.8em;
+    }
+}
+
+.flip-card-back.empathy {
+    padding: 2em 2.4em;
+    background-color: #622e92c5;
+    color: #fdd02de7;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back.comunicacao {
+    padding: 2em 2.4em;
+    background-color: #622e92c5;
+    color: #ffd7cf;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back.equilibrio {
+    padding: 2em 2.4em;
+    background-color: #622e92c5;
+    color: #cee29a;
+    transform: rotateY(180deg);
+}
